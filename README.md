@@ -66,7 +66,7 @@ docker container ps
 ```
 docker exec -it <container_Id> /bin/zsh
 ```
-## 6) Ensure you are servering on localhost port 3000 by confirming the rails splash page.
+## 6) Ensure you are servering on localhost port 3000 by confirming the chaterbox web app is working correctly.
 ```localhost:3000```
 
 ## 7) Running the tests
