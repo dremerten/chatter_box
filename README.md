@@ -6,7 +6,8 @@
 ### For Mac: go here ---> https://download.docker.com/mac/stable/Docker.dmg
 
 ### For Linux Ubuntu 18.04: got here and follow the steps ---> 
-https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04
+``` curl -fsSL https://get.docker.com -o get-docker.sh```
+```sh get-docker.sh```
 
 ### For Windows10: go here --> https://hub.docker.com/editions/community/docker-ce-desktop-windows
 
