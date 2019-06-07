@@ -58,9 +58,11 @@ git clone https://github.com/dremerten/dockerizing_rails.git
 
 # Once you have Docker, Postgres both running and the Repo Cloned
 
+
+
 ## 3) To get the containers up and running change into scripts directory and execute setup-env.sh
 ```
-$ cd dockerizing_rails/scripts/
+$ cd chatter_box/scripts/
 
 # For MacOSX/Linux
 $ ./setup-env.sh
