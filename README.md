@@ -10,7 +10,7 @@
 
 ```sudo apt-get update   ```
 
-### For Linux Ubuntu 19.04 run the automated install:
+### For Linux Ubuntu 19.04 run the automated installer:
 
 ```  bash docker_installer-linux19.04.sh```
 
