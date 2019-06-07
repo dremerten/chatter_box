@@ -1,5 +1,3 @@
-#! /bin/bash
-
 add_gpg_key(){
   curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 }
@@ -22,5 +20,9 @@ linux_install(){
     add_gpg_key
     update_source_list
     install_docker_ce
+    printf "\n\n\e[5;44;1;33m*** Attention $(whoami) Please press 'q' to complete installation*** \e[0m\n\e[5;44;1;33\e[0m\n\n"
     verify_running
 }
+
+linux_install
+
