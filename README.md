@@ -10,27 +10,10 @@
 
 ```sudo apt-get update   ```
 
-### For Linux Ubuntu 19.04 : Follow these steps
+### For Linux Ubuntu 19.04 run the automated install:
 
-#### add the GPG key for the official Docker repository to the system:
-```curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -```
+```  bash docker_installer-linux19.04.sh```
 
-#### Add the Docker repository to APT sources:
-```sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable edge"```
-#### Or:
-``` sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable edge test"```
-
-#### update the package database with the Docker packages from the newly added repo:
-``` sudo apt update```
-
-####install from the Docker repo instead of the default Ubuntu 19.04 repo:
-``` apt-cache policy docker-ce```
-####install Docker:
-``` sudo apt-get install -y docker-ce```
-
-#### Docker should now be installed, the daemon started, and the process enabled to start on boot. Check that it’s running:
-
-```sudo systemctl status docker ```
 
 **************************************************************************************************************************
 
