@@ -5,9 +5,10 @@
 
 ### For Mac: go here ---> https://download.docker.com/mac/stable/Docker.dmg
 
-### For Linux Ubuntu 18.04: got here and follow the steps ---> 
-``` curl -fsSL https://get.docker.com -o get-docker.sh```
-```sh get-docker.sh```
+### For Linux Ubuntu 18.04: got here and follow the steps --->  
+``` sudo apt-get remove docker docker -engine docker.io containerd runc```
+```sudo apt-get update &&  ```
+
 
 ### For Windows10: go here --> https://hub.docker.com/editions/community/docker-ce-desktop-windows
 
