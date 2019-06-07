@@ -26,7 +26,11 @@ linux_install(){
 
 linux_install
 
-printf "\n\n\e[5;44;1;33m*** Attention $(whoami) Please run: sudo usermod -aG docker ${USER} 
-Followed by: su ${USER} 
-Finally: id -nG ***"
+printf "\n\n\e[5;44;1;33m*** Attention $(whoami) Please Run the following to add user to docker group\e[0m\n\e[5;44;1;33\e[0m\n\n\n"
+
+echo "1) sudo usermod -aG docker ${USER}"
+echo "2) su ${USER}"
+echo "3) id -nG"
+
+
 
