@@ -28,5 +28,5 @@ linux_install
 
 printf "\n\n\e[5;44;1;33m*** Attention $(whoami) Please run: sudo usermod -aG docker ${USER} 
 Followed by: su ${USER} 
-Finally: id -nG *** \e[0m\n\e[5;44;1;33\e[0m\n\n"
+Finally: id -nG ***"
 
