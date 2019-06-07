@@ -1,7 +1,7 @@
 #! /bin/bash
 
 install_pkgs(){
-  sudo apt-get -y install py-pip python-dev libff1-dev openssl-dev gcc libc-dev make
+  sudo apt-get -y install python-dev gcc libc-dev make
 }
 
 install_dccomps(){
