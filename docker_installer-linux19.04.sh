@@ -21,6 +21,7 @@ linux_install(){
     update_source_list
     install_docker_ce
     printf "\n\n\e[5;44;1;33m*** Attention $(whoami) Please press 'q' to complete installation*** \e[0m\n\e[5;44;1;33\e[0m\n\n"
+    sudo usermod -aG docker $(whoami)
     verify_running
 }
 
