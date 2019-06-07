@@ -5,9 +5,34 @@
 
 ### For Mac: go here ---> https://download.docker.com/mac/stable/Docker.dmg
 
-### For Linux Ubuntu 18.04: got here and follow the steps --->  
+### For Linux Ubuntu 18.04: Go here and follow the steps --->  
 ``` sudo apt-get remove docker docker -engine docker.io containerd runc```
-```sudo apt-get update &&  ```
+
+```sudo apt-get update   ```
+
+### For Linux Ubuntu 19.04 : Follow these steps
+
+#### add the GPG key for the official Docker repository to the system:
+```curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -```
+
+#### Add the Docker repository to APT sources:
+```sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable edge"```
+#### Or:
+``` sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable edge test"```
+
+#### update the package database with the Docker packages from the newly added repo:
+``` sudo apt update```
+
+####install from the Docker repo instead of the default Ubuntu 19.04 repo:
+``` apt-cache policy docker-ce```
+####install Docker:
+``` sudo apt-get install -y docker-ce```
+
+#### Docker should now be installed, the daemon started, and the process enabled to start on boot. Check that it’s running:
+
+```sudo systemctl status docker ```
+
+**************************************************************************************************************************
 
 
 ### For Windows10: go here --> https://hub.docker.com/editions/community/docker-ce-desktop-windows
