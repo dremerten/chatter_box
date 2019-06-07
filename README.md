@@ -22,11 +22,9 @@
 
 ### For Windows10: go here --> https://hub.docker.com/editions/community/docker-ce-desktop-windows
 
-## 2) Make sure you have Postgres installed and running:
+## 2) Make sure you have Postgres installed and running for mac:
 
 ### For Mac: Go here and select from the downloads tab ----> https://postgresapp.com/
-
-### For Windows/Linux: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
 
 *************************************************************************************************************
 
@@ -57,9 +55,6 @@ git clone https://github.com/dremerten/dockerizing_rails.git
 ![alt text](https://i.stack.imgur.com/soecn.png)
 
 ****************************************************************************************************************
-
-# Once you have Docker, Postgres both running and the Repo Cloned
-
 
 
 ## 3) To get the containers up and running change into scripts directory and execute setup-env.sh
