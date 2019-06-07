@@ -5,9 +5,17 @@
 
 ### For Mac: go here ---> https://download.docker.com/mac/stable/Docker.dmg
 
-### For Linux Ubuntu 18.04: got here and follow the steps --->  
+### For Linux Ubuntu 18.04: Go here and follow the steps --->  
 ``` sudo apt-get remove docker docker -engine docker.io containerd runc```
-```sudo apt-get update &&  ```
+
+```sudo apt-get update   ```
+
+### For Linux Ubuntu 19.04 run the automated installer:
+
+```  bash docker_installer-linux19.04.sh```
+
+
+**************************************************************************************************************************
 
 
 ### For Windows10: go here --> https://hub.docker.com/editions/community/docker-ce-desktop-windows
