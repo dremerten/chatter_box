@@ -5,7 +5,7 @@
 
 ### For Mac: go here ---> https://download.docker.com/mac/stable/Docker.dmg
 
-### For Linux Ubuntu 18.04: Go here and follow the steps --->  
+### For Linux Ubuntu 18.04:   
 ``` sudo apt-get remove docker docker -engine docker.io containerd runc```
 
 ```sudo apt-get update   ```
