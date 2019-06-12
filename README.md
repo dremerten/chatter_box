@@ -67,22 +67,18 @@ $ ./setup-env.sh
 # Windows(Git Bash Command Prompt)
 $ sh setup-env.sh
 ```
-## 4) To check the status of current running containers
+## 4) Check the status of current running containers
 ```
 docker container ps
 ```
-## 5) To enter the container run:
+## 5) Enter the container run:
 ```
 docker exec -it <container_Id> /bin/zsh
 ```
-## 6) Ensure you are servering on localhost port 3000 by confirming the chaterbox web app is working correctly.
+## 6) Check out the app
 ```localhost:3000```
 
-## 7) Running the tests
-```
-docker-compose run app rspec
-```
-### In order to copy a file from a container to the host, you can use the command
+### Copy a file from a container to the host, you can use the command
 ```
 docker cp <containerId>:/file/path/within/container /host/path/target
 ```
