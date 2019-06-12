@@ -1,7 +1,7 @@
 # Docker/Rails_app Chatterbox
 
 
-## 1) Make sure you have docker installed and running: 
+## 1) Have docker installed and running: 
 
 ### For Mac: go here ---> https://download.docker.com/mac/stable/Docker.dmg
 
@@ -22,7 +22,7 @@
 
 ### For Windows10: go here --> https://hub.docker.com/editions/community/docker-ce-desktop-windows
 
-## 2) Make sure you have Postgres installed and running for mac:
+## 2) Have Postgres installed and running for mac:
 
 ### For Mac: Go here and select from the downloads tab ----> https://postgresapp.com/
 
