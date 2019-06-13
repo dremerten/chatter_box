@@ -1,20 +1,40 @@
 # Docker/Rails_app Chatterbox
 
 
-## 1) Have docker installed and running: 
+## 1) Install docker-ce and docker-compose 
 
 ### For Mac: go here ---> https://download.docker.com/mac/stable/Docker.dmg
 
-### For Linux Ubuntu 18.04:   
+### For Linux Ubuntu 18.04:  
+
+### Installs docker-ce and docker-compose
 ``` bash docker_installer-linux18.04.sh```
+
 # Follow printed instructions after install
 
+### To get the containers up and running change into scripts directory and execute setup-env.sh
+```
+$ cd chatter_box/scripts/
 
-### For Linux Ubuntu 19.04 run the automated installer to install docker-ce and docker-compose:
+# For MacOSX/Linux
+$ ./setup-env.sh
+
+# Windows(Git Bash Command Prompt)
+$ sh setup-env.sh
+```
+
+### For Linux Ubuntu 19.04 
 
 ``` bash docker_installer-linux19.04.sh```
 
 ``` bash composer-installer.sh ```
+
+### To get the containers up and running change into scripts directory and execute setup-env.sh
+```
+$ cd chatter_box/scripts/
+
+# For MacOSX/Linux
+$ ./setup-env.sh
 
 
 **************************************************************************************************************************
@@ -57,16 +77,7 @@ git clone https://github.com/dremerten/dockerizing_rails.git
 ****************************************************************************************************************
 
 
-## 3) To get the containers up and running change into scripts directory and execute setup-env.sh
-```
-$ cd chatter_box/scripts/
 
-# For MacOSX/Linux
-$ ./setup-env.sh
-
-# Windows(Git Bash Command Prompt)
-$ sh setup-env.sh
-```
 ## 4) Check the status of current running containers
 ```
 docker container ps
