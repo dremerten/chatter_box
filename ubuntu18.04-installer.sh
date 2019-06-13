@@ -39,7 +39,6 @@ linux_install(){
     install_pkgs
     install_dccomps
     verify_running
-printf "\n\n\e[5;44;1;33m*** Attention $(whoami) Please press 'q' to complete installation*** \e[0m\n\e[5;44;1;33\e[0m\n\n\n"
 }
 
 linux_install
