@@ -32,7 +32,7 @@ https://download.docker.com/mac/stable/Docker.dmg
 ***************************************************************************************************************************
 # For Linux Ubuntu 19.04 
 
-``` bash ubuntu19/04-installer.sh```
+``` bash ubuntu19.04-installer.sh```
 
 #### To get the containers up and running change into scripts directory and execute setup-env.sh
 
