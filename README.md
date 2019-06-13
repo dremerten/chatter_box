@@ -48,14 +48,7 @@ https://download.docker.com/mac/stable/Docker.dmg
 # For Windows
  https://hub.docker.com/editions/community/docker-ce-desktop-windows
  
- **************************************************************************************************************************
 
- 
-
-
-*************************************************************************************************************
-
-# Windows Only
 ### You may need to install Chocolately ---> https://chocolatey.org/docs
 
 ### After Chocolately is installed use the command prompt to install git.
@@ -76,7 +69,6 @@ choco install git.install --params "/GitOnlyOnPath"
 ```
 git clone https://github.com/dremerten/dockerizing_rails.git
 ```
-
 
 ### Locating the Git Bash Command Window.
 ![alt text](https://i.stack.imgur.com/soecn.png)
