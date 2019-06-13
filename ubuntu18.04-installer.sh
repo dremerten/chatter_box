@@ -7,7 +7,7 @@ purge_system()
 
 update_system()
 {
-	sudo apt-get update && sudo cp /etc/apt/sources.list.d/additional-repositories.list /etc/apt/sources.list.d/additional-repositories.list.bak && sudo echo "deb [arch=amd64] https://download.docker.com/linux/ubuntu xenial stable edge" > /etc/apt/sources.list.d/additional-repositories.list
+	sudo apt-get update && sudo cp -r /etc/apt/sources.list.d/additional-repositories.list /etc/apt/sources.list.d/additional-repositories.list.bak && sudo echo "deb [arch=amd64] https://download.docker.com/linux/ubuntu xenial stable edge" > /etc/apt/sources.list.d/additional-repositories.list
 }
 
 install_docker_ce()
@@ -39,7 +39,7 @@ linux_install(){
     install_pkgs
     install_dccomps
     verify_running
-    "\n\n\e[5;44;1;33m*** Attention $(whoami) Please press 'q' to complete installation*** \e[0m\n\e[5;44;1;33\e[0m\n\n\n"
+printf "\n\n\e[5;44;1;33m*** Attention $(whoami) Please press 'q' to complete installation*** \e[0m\n\e[5;44;1;33\e[0m\n\n\n"
 }
 
 linux_install
