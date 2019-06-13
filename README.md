@@ -10,7 +10,7 @@
 ### Installs docker-ce and docker-compose
 ``` bash docker_installer-linux18.04.sh```
 
-# Follow printed instructions after install
+### Follow printed instructions after install
 
 ### To get the containers up and running change into scripts directory and execute setup-env.sh
 ```
@@ -30,17 +30,17 @@ $ sh setup-env.sh
 ``` bash composer-installer.sh ```
 
 ### To get the containers up and running change into scripts directory and execute setup-env.sh
-```
-$ cd chatter_box/scripts/
+
+```$ cd chatter_box/scripts/```
 
 # For MacOSX/Linux
-$ ./setup-env.sh```
+```$ ./setup-env.sh```
 
 
 **************************************************************************************************************************
 
 
-### For Windows10: go here --> https://hub.docker.com/editions/community/docker-ce-desktop-windows
+# For Windows10: go here --> https://hub.docker.com/editions/community/docker-ce-desktop-windows
 
 ## 2) Have Postgres installed and running for mac:
 
