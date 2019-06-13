@@ -36,8 +36,8 @@ linux_install(){
     purge_system
     update_system
     install_docker_ce
+    printf "\n\n\e[5;44;1;33m*** ${USER} Please press 'q' to exit status screen *** \e[0m\n\e[5;44;1;33m \e[0m\n\n"
     verify_running
-printf "\n\n\e[5;44;1;33m*** ${USER} Please press 'q' to exit status screen *** \e[0m\n\e[5;44;1;33m \e[0m\n\n"
     install_pkgs
     install_dccomps
 }
