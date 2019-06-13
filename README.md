@@ -6,15 +6,15 @@
 ### For Mac: go here ---> https://download.docker.com/mac/stable/Docker.dmg
 
 ### For Linux Ubuntu 18.04:   
-``` sudo bash docker_installer-linux18.04.sh```
+``` bash docker_installer-linux18.04.sh```
 # Follow printed instructions after install
 
 
 ### For Linux Ubuntu 19.04 run the automated installer to install docker-ce and docker-compose:
 
-``` sudo bash docker_installer-linux19.04.sh```
+``` bash docker_installer-linux19.04.sh```
 
-``` sudo bash composer-installer.sh ```
+``` bash composer-installer.sh ```
 
 
 **************************************************************************************************************************
