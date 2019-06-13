@@ -1,11 +1,12 @@
 # Docker/Rails_app Chatterbox
 
- # Mac OsX
+ # Mac OsX docker install
 https://download.docker.com/mac/stable/Docker.dmg
 
-## Have Postgres installed and running for mac: https://postgresapp.com/
+## Have Postgres installed and running 
+https://postgresapp.com/
 
-## Docker-ce and postgres should be running
+## Docker-ce and postgres services should be running
 
 #### To get the containers up and running change into scripts directory and execute setup-env.sh
 ```$ cd chatter_box/scripts/```
