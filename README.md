@@ -1,50 +1,57 @@
 # Docker/Rails_app Chatterbox
 
+ # Mac OsX
+https://download.docker.com/mac/stable/Docker.dmg
 
-## 1) Install docker-ce and docker-compose 
+## Have Postgres installed and running for mac: https://postgresapp.com/
 
-### For Mac: go here ---> https://download.docker.com/mac/stable/Docker.dmg
+## Docker-ce and postgres should be running
 
-### For Linux Ubuntu 18.04:  
+#### To get the containers up and running change into scripts directory and execute setup-env.sh
+```$ cd chatter_box/scripts/```
+
+## Run setup
+```$ ./setup-env.sh```
+
+***************************************************************************************************************************
+
+# For Linux Ubuntu 18.04:  
 
 ### Installs docker-ce and docker-compose
 ``` bash docker_installer-linux18.04.sh```
 
-### Follow printed instructions after install
-
-### To get the containers up and running change into scripts directory and execute setup-env.sh
-```
-$ cd chatter_box/scripts/
-
-# For MacOSX/Linux
-$ ./setup-env.sh
-
-# Windows(Git Bash Command Prompt)
-$ sh setup-env.sh
-```
-
-### For Linux Ubuntu 19.04 
-
-``` bash docker_installer-linux19.04.sh```
-
-``` bash composer-installer.sh ```
+## Follow printed instructions after install
 
 ### To get the containers up and running change into scripts directory and execute setup-env.sh
 
 ```$ cd chatter_box/scripts/```
 
-# For MacOSX/Linux
+## Run setup
 ```$ ./setup-env.sh```
 
+***************************************************************************************************************************
+# For Linux Ubuntu 19.04 
+
+``` bash docker_installer-linux19.04.sh```
+
+``` bash composer-installer.sh ```
+
+#### To get the containers up and running change into scripts directory and execute setup-env.sh
+
+```$ cd chatter_box/scripts/```
+
+## Run setup
+```$ ./setup-env.sh```
 
 **************************************************************************************************************************
 
+# For Windows
+ https://hub.docker.com/editions/community/docker-ce-desktop-windows
+ 
+ **************************************************************************************************************************
 
-# For Windows10: go here --> https://hub.docker.com/editions/community/docker-ce-desktop-windows
+ 
 
-## 2) Have Postgres installed and running for mac:
-
-### For Mac: Go here and select from the downloads tab ----> https://postgresapp.com/
 
 *************************************************************************************************************
 
@@ -74,19 +81,24 @@ git clone https://github.com/dremerten/dockerizing_rails.git
 ### Locating the Git Bash Command Window.
 ![alt text](https://i.stack.imgur.com/soecn.png)
 
+### To get the containers up and running change into scripts directory and execute setup-env.sh
+
+# Windows(Git Bash Command Prompt)
+```$ sh setup-env.sh```
+
 ****************************************************************************************************************
 
+# For All OS Platforms
 
-
-## 4) Check the status of current running containers
+### Check the status of current running containers
 ```
 docker container ps
 ```
-## 5) Enter the container run:
+### Enter the container run:
 ```
 docker exec -it <container_Id> /bin/zsh
 ```
-## 6) Check out the app
+### Check out the app
 ```localhost:3000```
 
 ### Copy a file from a container to the host, you can use the command
@@ -109,5 +121,5 @@ $ docker images
 ```
 docker system prune -a
 ```
-# For additional Docker commands please refer to "docker_notes.txt"
+## For additional Docker commands please refer to "docker_notes.txt"
 
