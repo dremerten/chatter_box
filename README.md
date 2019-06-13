@@ -6,9 +6,9 @@
 ### For Mac: go here ---> https://download.docker.com/mac/stable/Docker.dmg
 
 ### For Linux Ubuntu 18.04:   
-``` sudo apt-get remove docker docker -engine docker.io containerd runc```
-
-```sudo apt-get update   ```
+``` bash docker_installer-linux18.04.sh```
+# add user to docker group
+``` sudo usermod -aG docker ${USER}```
 
 ### For Linux Ubuntu 19.04 run the automated installer to install docker-ce and docker-compose:
 
