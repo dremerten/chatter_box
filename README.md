@@ -18,7 +18,7 @@ https://download.docker.com/mac/stable/Docker.dmg
 # For Linux Ubuntu 18.04:  
 
 ### Installs docker-ce and docker-compose
-``` bash docker_installer-linux18.04.sh```
+``` ubuntu18.04-installer.sh```
 
 ## Follow printed instructions after install
 
