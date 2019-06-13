@@ -51,3 +51,5 @@ echo "2) su ${USER}"
 echo "3) id -nG"
 
 printf "\n\n\e[5;44;1;33m*** ${USER} Please change into the 'scripts' directory and execute the 'setup-env.sh' *** \e[0m\n\e[5;44;1;33m \e[0m\n\n"
+echo "1) cd scripts"
+echo "2) ./setup-env.sh"
