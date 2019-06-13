@@ -38,12 +38,13 @@ linux_install(){
     update_source_list
     install_docker_ce
     verify_running
+printf "\n\n\e[5;44;1;33m*** ${USER} Please press 'q' to exit the docker status screen *** \e[0m\n\e[5;44;1;33m \e[0m\n\n"
     runner
 }
 
 linux_install
 
-printf "\n\n\e[5;44;1;33m*** Attention $(whoami) Please Run the following to add user to docker group\e[0m\n\e[5;44;1;33\e[0m\n\n\n"
+printf "\n\n\e[5;44;1;33m*** ${USER} Please enter the following commands to add yourself to the docker group *** \e[0m\n\e[5;44;1;33m \e[0m\n\n"
 
 echo "1) sudo usermod -aG docker ${USER}"
 echo "2) su ${USER}"

@@ -39,11 +39,12 @@ linux_install(){
     install_pkgs
     install_dccomps
     verify_running
+printf "\n\n\e[5;44;1;33m*** ${USER} Please press 'q' to exit status screen *** \e[0m\n\e[5;44;1;33m \e[0m\n\n"
 }
 
 linux_install
 
-printf "\n\n\e[5;44;1;33m*** Attention $(whoami) Please Run the following to add user to docker group\e[0m\n\e[5;44;1;33\e[0m\n\n\n"
+printf "\n\n\e[5;44;1;33m*** ${USER} Please enter the following to add yourself to the docker group *** \e[0m\n\e[5;44;1;33m \e[0m\n\n"
 
 echo "1) sudo usermod -aG docker ${USER}"
 echo "2) su ${USER}"
