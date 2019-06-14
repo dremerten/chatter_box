@@ -16,31 +16,32 @@ https://postgresapp.com/
 
 ***************************************************************************************************************************
 
-# For Linux Ubuntu 18.04:  
+# For Linux Ubuntu 18.04: 
 
-### Installs docker-ce and docker-compose
+### 1) Clone the project
+``` git clone https://github.com/dremerten/chatter_box.git```
+
+### 2) Change directories into 'chatter_box'
+``` cd chatter_box```
+
+### 2) Installs docker-ce and docker-compose
 ``` bash ubuntu18.04-installer.sh```
 
-## Follow printed instructions after install
-
-### To get the containers up and running change into scripts directory and execute setup-env.sh
-
-```$ cd chatter_box/scripts/```
-
-## Run setup
-```$ ./setup-env.sh```
+###  3) Follow on-screen instructions after install
 
 ***************************************************************************************************************************
 # For Linux Ubuntu 19.04 
 
+### 1) Clone the project
+``` git clone https://github.com/dremerten/chatter_box.git```
+
+### 2) change directories into chatterbox
+```cd chatter_box```
+
+### 3) Run automated installer for docker-ce and docker-compose
 ``` bash ubuntu19.04-installer.sh```
 
-#### To get the containers up and running change into scripts directory and execute setup-env.sh
-
-```$ cd chatter_box/scripts/```
-
-## Run setup
-```$ ./setup-env.sh```
+### 4) Follow the on-screen instructions
 
 **************************************************************************************************************************
 
