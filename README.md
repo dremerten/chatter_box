@@ -69,7 +69,7 @@ choco install git.install --params "/GitOnlyOnPath"
    ### To access click on the windows icon and select "Git" from there locate the Git Bash Command Prompt, right-click
    ### and run as Administrator.
 ```
-git clone https://github.com/dremerten/dockerizing_rails.git
+git clone https://github.com/dremerten/chatter_box.git
 ```
 
 ### Locating the Git Bash Command Window.
