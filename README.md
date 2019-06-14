@@ -1,24 +1,6 @@
 # Docker/Rails_app Chatterbox
 
- # Mac OsX docker install
- 
-### 1) 
-https://download.docker.com/mac/stable/Docker.dmg
-
-## 2) Have Postgres installed and running 
-https://postgresapp.com/
-
-## Docker-ce and postgres services should be running
-
-### 3) To get the containers up and running change into scripts directory and execute setup-env.sh
-```$ cd chatter_box/scripts/```
-
-### 4) Run setup
-```$ ./setup-env.sh```
-
-***************************************************************************************************************************
-
-# For Linux Ubuntu 18.04: 
+ # For Linux Ubuntu 18.04: 
 
 ### 1) Clone the project
 ``` git clone https://github.com/dremerten/chatter_box.git```
@@ -44,8 +26,26 @@ https://postgresapp.com/
 ``` bash ubuntu19.04-installer.sh```
 
 ### 4) Follow the on-screen instructions
-
 **************************************************************************************************************************
+
+# Mac OsX docker install
+ 
+### 1) 
+https://download.docker.com/mac/stable/Docker.dmg
+
+## 2) Have Postgres installed and running 
+https://postgresapp.com/
+
+## Docker-ce and postgres services should be running
+
+### 3) To get the containers up and running change into scripts directory and execute setup-env.sh
+```$ cd chatter_box/scripts/```
+
+### 4) Run setup
+```$ ./setup-env.sh```
+
+***************************************************************************************************************************
+
 
 # For Windows
  https://hub.docker.com/editions/community/docker-ce-desktop-windows
