@@ -26,10 +26,10 @@ https://postgresapp.com/
 ### 2) Change directories into 'chatter_box'
 ``` cd chatter_box```
 
-### 2) Installs docker-ce and docker-compose
+### 3) Install docker-ce and docker-compose
 ``` bash ubuntu18.04-installer.sh```
 
-###  3) Follow on-screen instructions after install
+### 4) Follow on-screen instructions 
 
 ***************************************************************************************************************************
 # For Linux Ubuntu 19.04 
@@ -40,7 +40,7 @@ https://postgresapp.com/
 ### 2) change directories into chatterbox
 ```cd chatter_box```
 
-### 3) Run automated installer for docker-ce and docker-compose
+### 3) Install docker-ce and docker-compose
 ``` bash ubuntu19.04-installer.sh```
 
 ### 4) Follow the on-screen instructions
