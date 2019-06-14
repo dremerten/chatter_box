@@ -51,9 +51,9 @@ https://postgresapp.com/
  https://hub.docker.com/editions/community/docker-ce-desktop-windows
  
 
-### You may need to install Chocolately ---> https://chocolatey.org/docs
+### Install Chocolately ---> https://chocolatey.org/docs
 
-### After Chocolately is installed use the command prompt to install git.
+###  Use the command prompt to install git.
 https://chocolatey.org/packages/git
 
 ```# MUST RUN CMD AS ADMINISTRATOR
@@ -78,6 +78,8 @@ git clone https://github.com/dremerten/chatter_box.git
 ### To get the containers up and running change into scripts directory and execute setup-env.sh
 
 # Windows(Git Bash Command Prompt)
+```cd scripts```
+
 ```$ sh setup-env.sh```
 
 ****************************************************************************************************************
