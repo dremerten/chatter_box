@@ -1,4 +1,5 @@
 add_gpg_key(){
+  sudo apt-get update && sudo apt-get install curl &&
   curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 }
 
