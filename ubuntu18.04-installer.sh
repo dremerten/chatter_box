@@ -7,8 +7,7 @@ purge_system()
 
 update_system()
 {
-	sudo apt-get install curl &&
-	sudo apt-get update && sudo cp -r /etc/apt/sources.list.d/additional-repositories.list /etc/apt/sources.list.d/additional-repositories.list.bak && sudo echo "deb [arch=amd64] https://download.docker.com/linux/ubuntu xenial stable edge" > /etc/apt/sources.list.d/additional-repositories.list
+	sudo apt-get update && sudo apt-get install curl && sudo cp -r /etc/apt/sources.list.d/additional-repositories.list /etc/apt/sources.list.d/additional-repositories.list.bak && sudo echo "deb [arch=amd64] https://download.docker.com/linux/ubuntu xenial stable edge" > /etc/apt/sources.list.d/additional-repositories.list
 }
 
 install_docker_ce()
